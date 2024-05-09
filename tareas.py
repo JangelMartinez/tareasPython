@@ -136,17 +136,6 @@ class TodoList:
         """
         changetodo.change_state()
 
-    def sort_by_date(self):
-        """
-        Sorts the todos in the TodoList by creation date.
-
-        This method does not take any parameters.
-
-        This method does not return any value.
-        """
-        self.todos.sort(key=lambda todo: todo.date_create_todo)
-    
-
 
 lista_tareas = TodoList()
 
